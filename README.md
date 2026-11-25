@@ -1,4 +1,4 @@
-# stabledrop-me
+# Stabledrop
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-stabledrop-me is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://stabledrop.me/
+Stabledrop provides protected payment services that enable businesses and individuals to send and receive money with a built‑in escrow‑like safeguard. Operating under Conduit‑UCPI Ltd in Scotland, the platform charges a flat 1% fee and offers AI‑assisted payment approvals, customizable checkout flows, and instant fund releases. It aims to reduce fraud risk while simplifying cross‑border transactions for merchants, freelancers, and partners.
+
+**Areas:** Company · Payments · Fintech · Escrow · API
+
+## Stabledrop on APIs.io
+
+Everything profiled for Stabledrop is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/stabledrop-me/](https://apis.io/providers/stabledrop-me/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [Stabledrop Authorization API](https://apis.io/apis/stabledrop-me/stabledrop-me-authorization-api/) — The Authorization API from Stabledrop — 1 operation(s) for authorization.
+- [Stabledrop Escrow API](https://apis.io/apis/stabledrop-me/stabledrop-me-escrow-api/) — The Escrow API from Stabledrop — 1 operation(s) for escrow.
+- [Stabledrop Health API](https://apis.io/apis/stabledrop-me/stabledrop-me-health-api/) — The Health API from Stabledrop — 1 operation(s) for health.
+- [Stabledrop Parties API](https://apis.io/apis/stabledrop-me/stabledrop-me-parties-api/) — The Parties API from Stabledrop — 2 operation(s) for parties.
+- [Stabledrop Prepare API](https://apis.io/apis/stabledrop-me/stabledrop-me-prepare-api/) — The Prepare API from Stabledrop — 1 operation(s) for prepare.
+- [Stabledrop Request API](https://apis.io/apis/stabledrop-me/stabledrop-me-request-api/) — The Request API from Stabledrop — 2 operation(s) for request.
+- [Stabledrop Requests API](https://apis.io/apis/stabledrop-me/stabledrop-me-requests-api/) — The Requests API from Stabledrop — 1 operation(s) for requests.
+- [Stabledrop Reserve API](https://apis.io/apis/stabledrop-me/stabledrop-me-reserve-api/) — The Reserve API from Stabledrop — 1 operation(s) for reserve.
+- [Stabledrop Settle API](https://apis.io/apis/stabledrop-me/stabledrop-me-settle-api/) — The Settle API from Stabledrop — 1 operation(s) for settle.
+- [Stabledrop .well Known API](https://apis.io/apis/stabledrop-me/stabledrop-me-well-known-api/) — The .well Known API from Stabledrop — 2 operation(s) for .well known.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Stabledrop Agentic Access](https://apis.io/agentic-access/stabledrop-me/stabledrop-me-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AuthorizationBody](https://apis.io/schemas/stabledrop-me/stabledrop-me-authorization-body/)
+- [EscrowAddressBody](https://apis.io/schemas/stabledrop-me/stabledrop-me-escrow-address-body/)
+- [PrepareBody](https://apis.io/schemas/stabledrop-me/stabledrop-me-prepare-body/)
+- [RequestBody](https://apis.io/schemas/stabledrop-me/stabledrop-me-request-body/)
+- [SettleBody](https://apis.io/schemas/stabledrop-me/stabledrop-me-settle-body/)
+- [SettleResponse](https://apis.io/schemas/stabledrop-me/stabledrop-me-settle-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Stabledrop Me Context](https://apis.io/jsonld/stabledrop-me/stabledrop-me-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Stabledrop API Rules](https://apis.io/rules/stabledrop-me/stabledrop-me-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Stabledrop Authentication](https://apis.io/security/stabledrop-me/stabledrop-me-authentication/)
+- [Stabledrop Domain Security](https://apis.io/security/stabledrop-me/stabledrop-me-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://stabledrop.me/)
+- [API reference](https://api.stabledrop.me/api/ap2/settle/doc)
+- [Support](https://stabledrop.me/landing_simple/help/)
+- [Terms of service](https://stabledrop.me/terms-of-service/)
+- [Privacy policy](https://stabledrop.me/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 41.3** — developing · rubric 0.27.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 58.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 30.2 |
+| Access clarity | 21.1 |
+
+**Agent readiness 37.9** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.3** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/stabledrop-me/](https://apis.io/providers/stabledrop-me/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Stabledrop: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/stabledrop-me/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
